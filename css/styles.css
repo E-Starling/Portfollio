@@ -530,6 +530,7 @@ progress {
   font-size: calc(1.475rem + 2.7vw);
   font-weight: 300;
   line-height: 1.2;
+  text-align: center;
 }
 
 @media (min-width: 1200px) {
@@ -11380,6 +11381,22 @@ text-align: center;
 .portfolio-description{
   text-align: center;
   font-weight: bold;
+}
+
+.findme-link{
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px
+}
+
+.findme-img{
+  width: 50px;
+  height: 50px;
+  
+}
+
+.icons{
+  text-align: center;
 }
 
 @media (min-width: 992px) {
