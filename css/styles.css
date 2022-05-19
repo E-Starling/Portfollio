@@ -531,6 +531,7 @@ progress {
   font-weight: 300;
   line-height: 1.2;
 }
+
 @media (min-width: 1200px) {
   .display-4 {
     font-size: 3.5rem;
@@ -602,6 +603,7 @@ progress {
 .img-fluid {
   max-width: 100%;
   height: auto;
+  text-align: center;
 }
 
 .img-thumbnail {
@@ -11344,7 +11346,41 @@ header.masthead .masthead-content .masthead-subheading {
   font-size: 2rem;
 }
 
+.skills{
+  border: 1px solid black;
+  border-radius: 20%;
+  box-shadow: 1px 3px 3px;
+ 
+}
+.skills li{
+  font-size: larger;
+}
 
+#portfolio{
+  background-color: #146c43;
+}
+
+#portfolio img{
+  width: 360px;
+  height: 310px;
+}
+
+.portfolio-project{
+transition: .25s;
+margin-bottom: 55px;
+text-align: center;
+}
+
+.portfolio-project-title{
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.portfolio-description{
+  text-align: center;
+  font-weight: bold;
+}
 
 @media (min-width: 992px) {
   header.masthead {
